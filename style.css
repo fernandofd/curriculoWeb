@@ -12,14 +12,7 @@ header {
     text-align: center;
 }
 
-.logo {
-    margin-bottom: 10px;
-}
 
-.logo img {
-    max-width: 150px;
-    height: auto;
-}
 
 .header-content {
     display: flex;
@@ -29,7 +22,7 @@ header {
 }
 
 .profile-picture {
-    max-width: 150px;
+    max-width: 100px;
     height: auto;
     border-radius: 50%;
     margin-right: 20px;
@@ -93,15 +86,23 @@ footer p {
 /* Regras de mídia para ajustar o layout em dispositivos móveis */
 @media (max-width: 600px) {
     main{
-        font-size: xx-small;
+        font-size: small;
     }
     .header-content {
-        flex-direction: column;
-        font-size:xx-small;
+        font-size: small;
+        display: flex;
+        position: relative;
+        
     }
 
     .profile-picture {
-        max-width: 100px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        max-width:80px;
         height: auto;
         border-radius: 50%;
         margin-right: 0;
@@ -110,22 +111,31 @@ footer p {
 
     nav {
         display: flex;
+        position: relative;
         flex-direction: row;
-        align-items:flex-start;
-        font-size: xx-small;
+        align-items:center;
+        justify-content: center;
+        justify-items: center;
+        font-size: small;
     }
 
     nav a {
-        margin: 1px;
+        margin: 3px;
+        font-size: x-small;
     }
 
-    .personal-info h1 {
-        font-size: 20px;
+    .personal-info {
+        font-size: small;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+        justify-items: center;
+       
     }
 
-    .personal-info p {
-        font-size: 14px;
-    }
+   
 }
 
 /* Estilos para centralizar os vídeos */

@@ -92,12 +92,12 @@ footer p {
 
 /* Regras de mídia para ajustar o layout em dispositivos móveis */
 @media (max-width: 600px) {
-    body{
-        font-size: small;
+    main{
+        font-size: xx-small;
     }
     .header-content {
         flex-direction: column;
-        font-size: small;
+        font-size:xx-small;
     }
 
     .profile-picture {
@@ -112,11 +112,11 @@ footer p {
         display: flex;
         flex-direction: row;
         align-items:flex-start;
-        font-size: small;
+        font-size: xx-small;
     }
 
     nav a {
-        margin: 5px;
+        margin: 1px;
     }
 
     .personal-info h1 {
@@ -138,7 +138,7 @@ section#meus-videos {
 }
 
 .youtube-channel h3 {
-    color: #555;
+    color:black;
     border-bottom: 2px solid #555;
     padding-bottom: 5px;
 }

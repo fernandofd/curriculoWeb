@@ -2,12 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f5f5f5; /* Tom de cinza claro para o fundo da página */
+    color:black;
+    background: linear-gradient(to left,#968cdb, #d8dfe2);
 }
 
 header {
-    background-color: #555; /* Cinza escuro para o cabeçalho */
+    background: linear-gradient(to left, #000000,#0d0251);
     padding: 20px;
     text-align: center;
 }
@@ -51,9 +51,9 @@ header {
 }
 
 nav {
-    background-color: #555; /* Cinza escuro para o fundo do nav */
+    background: linear-gradient(to left, #000000,#260adc);
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 nav a {
@@ -74,13 +74,13 @@ section {
 }
 
 section h2 {
-    color: #555; /* Cinza escuro para os títulos */
+    color: black;
     border-bottom: 2px solid #555;
     padding-bottom: 5px;
 }
 
 footer {
-    background-color: #555; /* Cinza escuro para o rodapé */
+    background: linear-gradient(to left, #000000,#260adc);
     color: #fff;
     text-align: center;
     padding: 10px;

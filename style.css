@@ -46,7 +46,7 @@ header {
 nav {
     background: linear-gradient(to left, #000000,#260adc);
     padding: 6px;
-    text-align: left;
+    text-align: center;
 }
 
 nav a {
